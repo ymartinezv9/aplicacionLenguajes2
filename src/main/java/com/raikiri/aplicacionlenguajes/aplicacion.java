@@ -162,6 +162,7 @@ public class aplicacion {
     // Opción para visualizar la tabla de transiciones
     public void mostrarTablaTransiciones() {
         System.out.println("Tabla de Transiciones:");
+        System.out.println("");
         for (String estado : transiciones.keySet()) {
             for (Character simbolo : transiciones.get(estado).keySet()) {
                 String estadoDestino = transiciones.get(estado).get(simbolo);
@@ -188,6 +189,7 @@ public class aplicacion {
             System.out.println("7. Definir transicion");
             System.out.println("8. Mostrar tabla de transiciones");
             System.out.println("9. Salir");
+            System.out.println("");
             System.out.print("Seleccione una opcion: ");
 
             try {
