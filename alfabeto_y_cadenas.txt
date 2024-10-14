@@ -1,0 +1,8 @@
+Alfabeto: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Cadenas aceptadas:
+1234567890
+00000000000
+
+Cadenas rechazadas:
+asdf
